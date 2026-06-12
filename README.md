@@ -18,4 +18,15 @@ The goal of this project is to analyze historical transaction data and current a
 * **Optimize Profitability:**  Analyze sales by category to identify profitability trends and refine future pricing strategies.
 * **Drive Efficiency:** Provide data-driven recommendations to clear out stagnant inventory and maintain operational efficiency.
 
+## Data & Tools Used (The "Prepare" Phase)
+This analysis relies on real-world, raw business data exported directly from the eBay Seller Hub. The following datasets are used:
+* **Sales Report (eBay-ListingsSalesReport.csv):** Contains transaction-level data to analyze total sales, selling costs, and profitability margins.
+* **Active Listings (eBay-all-active-listings-report.csv):** Used to assess current inventory levels and identify stagnant "dead stock".
+* **Orders Report (ebay-all-orders-report.csv):** Contains buyer geographic data used for shipping logistics and geographic mapping.
+* **Traffic Report (eBay-ListingsTrafficReport.csv):** Used to analyze click-through rates, conversions, and listing impressions.
+* **Tools:** The data cleaning, exploration, and calculations for this scorecard will be performed using [Insert Python or R here].
+## Methodology & AI Workflow (The "Process" Phase)
+To scale the operations of Links Landing Antiques without sacrificing my academic focus at WGU, I applied Lean production concepts to the e-commerce workflow.
+Because the business lacked centralized pricing data for niche items, I engineered a custom Gemini AI "Gem". This tool was designed to ingest raw mobile image data of the antiques and generate structured, standardized appraisal reports. By utilizing a prompt-based template to automate the creation of titles, descriptions, and pricing tables, I effectively reduced the "per-unit" listing time by a significant margin.
+For this project, the raw operational data was extracted into CSVs and cleaned using Python and R to build a comprehensive Supply Chain Scorecard.  
 
